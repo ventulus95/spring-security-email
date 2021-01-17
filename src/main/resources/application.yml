@@ -1,0 +1,12 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: 유저정보
+    password: 페스워드
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
